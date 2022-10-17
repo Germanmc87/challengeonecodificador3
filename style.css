@@ -1,0 +1,155 @@
+
+
+body{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    background: #E5E5E5;
+}
+
+header {
+    background-color: aqua;
+    padding: 20px 0;
+}
+
+
+.logoAlura{
+    width: 120px;
+    margin: 30px;
+    height: 48px;
+    left: 40px;
+    top: 40px; 
+}
+
+h1{
+
+    font-family: Georgia, serif;
+    margin: 5px 5px 40px 50px;
+    font-size: 3em;
+    color: black;
+    text-align: center;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 50px;
+    font-size: 2em;
+}
+ 
+#main{
+    height: 70vh;
+}
+.caja-input{
+    width: 50%;
+    display: inline-block;
+    height: 50vh;
+}
+
+.caja-resultado{
+    width: 50%;
+    height: 50vh;
+    float: right; 
+}
+
+.input-texto{
+    display: inline-block;
+    margin: 30px 30px 0;
+    padding: 10px 25px;
+    width: 75%;
+    text-align: left;
+    border-radius: 1em;
+    border-color: yellowgreen;   
+}
+   
+.div-alertainfo{
+    display: block;
+}
+
+.informacion{
+    font-size: 2em;
+    margin: 30px 40px ;
+    font-size: 1.5em;
+}
+  
+.botones{
+    margin: 30px 30px 30px;
+}
+
+.encriptar{
+    width: 30%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background-color:  rgb(34, 202, 239);
+    border:#58A25E;
+    border-radius: 8px;
+    transition: 1s all;
+    cursor:pointer;
+   
+}
+
+.encriptar:hover{
+    background: rgb(16, 90, 95);
+    transform: scale(1);
+}
+
+.desencriptar{
+    width: 30%;
+    padding: 15px 0;
+    margin: 0 0 0 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background-color:  rgb(34, 202, 239);
+    border:#58A25E;
+    border-radius: 8px;
+    transition: 1s all;
+    cursor:pointer;
+}
+
+.desencriptar:hover{
+    background: rgb(16, 90, 95);
+    transform: scale(1);
+}
+
+.mensaje{
+    display: inline-block;
+    margin: 30px 30px 30px;
+    padding: 10px 25px;
+    width: 70%;
+    text-align: left;
+    border-radius: 1em;
+    border-color: yellowgreen;
+}
+  
+.copiar{
+    width: 30%;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: bold;
+    color:white;
+    background-color:  rgb(34, 202, 239);
+    border:#58A25E;
+    border-radius: 8px;
+    transition: 1s all;
+    cursor:pointer;
+    margin:30px ;
+}
+
+.copiar:hover{
+    background: rgb(16, 90, 95);
+    transform: scale(1);
+}
+
+  
+.footer{
+    text-align:center ;
+    padding: 40px;
+   
+}
+
+.copyright{
+    color: black;
+    font-size: 13px;
+    margin: 20px;  
+   text-align: center;
+}

@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recest.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Encriptador Alura</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logoAlura">
+
+            <img src="imagenes (1)/logo.png" alt="Logo  alura ">
+        </div>
+        <h1>ENCRIPTADOR DE TEXTO</h1>
+
+    </header>
+
+    <main>
+
+        <section id="main">
+
+            <div class="caja-input">
+                <h2>Mensaje a encriptar</h2>
+
+                <textarea class="input-texto" cols="80" rows="10" placeholder="ingrese el texto aqui">
+                </textarea>
+
+
+                <div id="div-alertainfo">
+                    <h3 class=" informacion">
+                        Solo letras minusculas y sin acentos.
+                    </h3>
+                </div>
+
+                <div class="botones">
+                    <button class="encriptar" onclick="botonEncriptar()">
+                        Encriptar
+                    </button>
+    
+                    <button class="desencriptar" onclick="botonDesencriptar()">
+                        Desencriptar
+                    </button>
+                </div>
+    
+
+            </div>
+
+            <div class="caja-resultado">
+
+                <h2>Mensaje desencriptado</h2>
+
+                <!--
+                    <div class ="imagenmuneco">
+                        <img src =  "imagenes/Muneco.png"> 
+                    </div>
+                    -->
+
+
+                <textarea class="mensaje" cols="30" rows="10"></textarea>
+                <button class="copiar" onclick="copiar()">
+                    Copiar
+                </button>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <!--pie de pagina-->
+        <p class="copyright">&copy Copyright Barberia Alura 2022 German</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
